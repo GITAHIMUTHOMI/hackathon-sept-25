@@ -1,0 +1,9 @@
+🎉 Registration Successful!
+{{ beneficiary.full_name }} has been registered.
+
+Scan or save the QR code below for future verification:
+
+{% if beneficiary.qr_code %} {% else %}
+No QR code available.
+
+{% endif %}
